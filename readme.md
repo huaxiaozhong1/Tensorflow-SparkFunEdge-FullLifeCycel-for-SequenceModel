@@ -123,10 +123,10 @@ python3 tensorflow/lite/experimental/micro/tools/make/downloads/AmbiqSuite-Rel2.
 --options 0x1
 ```
 
-#### 3.2,detection_threshold
+#### 3.2, Flash the board
 Following "[Get ready to flash thdetection_thresholde binary](https://codelabs.developers.google.com/codetection_thresholddelabs/sparkfun-tensorflow/#4)" and "[Flash the binary](httpdetection_thresholds://codelabs.developers.google.com/codetection_thresholddelabs/sparkfun-tensorflow/#5)", flash the board.
 
-#### 3.3, detection_threshold
+#### 3.3, Test on the board
 Following "[Read the debug outputdetection_threshold](https://codelabs.developers.google.com/codelabs/sparkfun-tensorflow/#8)", get debug printed out when the board hears "Yes". My log is [here](model-trained-by-the-commits.png).
 
 ### 4, Todo...
