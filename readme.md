@@ -84,7 +84,7 @@ xxd -i /tmp/tiny_conv.tflite > /tmp/tiny_conv_micro_features_model_data.cc
 
 ### 3, Flash, test the model on board.
 #### 3.1,
-Prepare the board imgage to flash, which the trained model is in.
+Prepare the board image to flash, which the trained model is in.
 Still in the container, change directory --
 ```
 cd ../tensorflow-4a464440b2e8f382f442b6e952d64a56701ab045
