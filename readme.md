@@ -16,7 +16,7 @@ Based the convnet with sequence, the "long term pattern" can be also recognized 
 #### 1.1, 
 Looks like that only few Tf commits can work for the example as above. "[How to Train New TensorFlow Lite Micro Speech Models](https://www.digikey.com/en/maker/projects/how-to-train-new-tensorflow-lite-micro-speech-models/e9480d4a38264604a2bf0336ce11aa9e)" is a good guidance for reference. 
 ```
-sudo docker run --runtime=nvidia --name= <your-container-name> -it tensorflow/tensorflow:1.15.0-gpu-py3-jupyter bash
+sudo docker run --runtime=nvidia --name=<your-container-name> -it tensorflow/tensorflow:1.15.0-gpu-py3-jupyter bash
 ```
 #### 1.2
 Enter the container, get tools for building --
