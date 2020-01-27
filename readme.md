@@ -116,7 +116,7 @@ python3 tensorflow/lite/experimental/micro/tools/make/downloads/AmbiqSuite-Rel2.
 python3 tensorflow/lite/experimental/micro/tools/make/downloads/AmbiqSuite-Rel2.0.0/tools/apollo3_scripts/create_cust_wireupdate_blob.py \
 --load-address 0x20000 \
 --bin main_nonsecure_ota.bin \
--i 6 \detection_threshold
+-i 6 \
 -o main_nonsecure_wire \
 --options 0x1
 ```
