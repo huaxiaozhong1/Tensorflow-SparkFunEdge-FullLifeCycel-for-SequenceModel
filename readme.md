@@ -122,10 +122,10 @@ python3 tensorflow/lite/experimental/micro/tools/make/downloads/AmbiqSuite-Rel2.
 ```
 
 #### 3.2, Flash the board
-Following "[Get ready to flash thdetection_thresholde binary](https://codelabs.developers.google.com/codetection_thresholddelabs/sparkfun-tensorflow/#4)" and "[Flash the binary](httpdetection_thresholds://codelabs.developers.google.com/codetection_thresholddelabs/sparkfun-tensorflow/#5)", flash the board.
+Following "[Get ready to flash the binary](https://codelabs.developers.google.com/codelabs/sparkfun-tensorflow/#4)" and "[Flash the binary](https://codelabs.developers.google.com/codelabs/sparkfun-tensorflow/#5)", flash the board.
 
 #### 3.3, Test on the board
-Following "[Read the debug outputdetection_threshold](https://codelabs.developers.google.com/codelabs/sparkfun-tensorflow/#8)", get debug printed out when the board hears "Yes". My log is [here](model-trained-by-the-commits.png).
+Following "[Read the debug output](https://codelabs.developers.google.com/codelabs/sparkfun-tensorflow/#8)", get debug printed out when the board hears "Yes". My log is [here](model-trained-by-the-commits.png).
 
 ### 4, Todo...
 1) If using tensorflow-4a464440b2e8f382f442b6e952d64a56701ab045/tensorflow/lite/experimental/micro/examples/micro_speech/tiny_conv_micro_features_model_data.ori.cc as trained model, you could keep "detection_threshold" as it (200) in tensorflow-4a464440b2e8f382f442b6e952d64a56701ab045/tensorflow/lite/experimental/micro/examples/micro_speech/micro_features/recognize_commands.h. On the case, the board could recognize almost all "Yes" it hears.
